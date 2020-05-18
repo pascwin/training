@@ -32,9 +32,6 @@ var newsfeed = [
     }
 ];
 
-var userNamePrompt = prompt("Wie ist dein Username?");
-var passwordPrompt = prompt("Wie ist dein Passwort?");
-
 function isUserValid(username, password) {
     var databaseLength = database.length
     for (i = 0; i < databaseLength; i++) {
@@ -54,4 +51,6 @@ function logIn(user, pass) {
     console.log("Passwort falsch oder username falsche")
 }
 
+var userNamePrompt = prompt("Wie ist dein Username?");
+var passwordPrompt = prompt("Wie ist dein Passwort?");
 logIn(userNamePrompt, passwordPrompt)
