@@ -16,6 +16,6 @@
     "url": "https://github.com/pascwin/training/issues"
   },
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   }
 }
